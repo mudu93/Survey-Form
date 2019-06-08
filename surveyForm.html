@@ -1,0 +1,63 @@
+<HTML>
+  <form id ="survey-form">
+  <h1 id = "title"> Survey Form </h1>
+  <p id ="description">Tell me about your instagram usage</p>
+  
+  <div id = "survey-form">  
+    <label for="name" id="name-label" class="labels"> Name: </label> 
+    <div class="right">
+      <input type: "text" id="name" placeholder="Please enter your name here" class="input" required> 
+    </div>
+  <br> </br>
+  <label for="email" id="email-label" class="labels"> Email: </label>
+  <div <div class="right">
+    <input type="email" id="email" class="input" required placeholder="Enter your email here">
+  </div>
+  <br> </br>
+  <label for="number" id="number-label" class="labels">  Age: </label>
+<div class="right">
+  <input id="number" class="input" min="1" max="120" type="number" placeholder="Enter your age here">
+</div>
+<br></br> 
+<!-- dropdown -->
+<label for="food" class="labels"> Favorite posts:</label>
+<div class="right">
+  <select id="dropdown" name="posts" class="input ">
+    <option disabled value="select"> Select an option </option>
+    <option value="pictures">Pictures </option>
+    <option value="videos"> Videos </option>
+    <option value="memes"> Memes </option>
+  </select>
+</div>
+<br> </br>
+
+<!-- radio buttons -->
+<label class="labels" for="radio" > Boomarang or picture? </label>
+<ul class="right" style="list-style: none;">
+  <li class="radio"> <input name="radio-buttons" value="1" type="radio"><label> Boomarang</label></input> </li>
+  <li class="radio"><input name="radio-buttons" value="2" type="radio"
+ </input><label> Picture</label></li>
+</ul>
+
+<!-- checkbox -->
+<label for="sports" class="labels"> What other social apps do you use? (check all that apply)</label>
+<ul id="sports" style="list-style: none" class="right" >
+  <li class="checkbox"><label><input type="checkbox" id="basketball" value="1"> Facebook </label></input></li>
+  <li class="checkbox"><label><input type="checkbox" id="soccer" value="2"> Twitter </label></input></li>
+  <li class="checkbox"><label><input type="checkbox" id="baseball" value="3"> Snapchat </label></input></li>
+  <li class="checkbox"><label><input type="checkbox" id="badminton"value="4"> Medium </label></input></li>
+  <li class="checkbox"><label><input type="checkbox" id="football" value="5"> Foursquare </label></input></li>
+  <li class="checkbox"><label><input type="checkbox" id="taekwondo" value="6"> Couchsurfing </label></input></li>
+  <li class="checkbox"><label><input type="checkbox" id="tv" value="7"> Wechat </label></input></li>
+</ul>
+<!-- comments -->
+<label for="comment" class="labels"> Any Comments or Suggestions? </label>
+<div>
+<textarea name="comment" rows="8" columns="80" class="input right" placeholder="Enter your comments here..."></textarea>
+</div>
+<br> </br>
+<button id="submit" type="submit"> Submit </button>
+  
+    
+    </div>
+</form>
